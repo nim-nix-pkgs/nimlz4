@@ -11,6 +11,7 @@
   inputs.src-nimlz4-master.ref   = "refs/heads/master";
   inputs.src-nimlz4-master.owner = "dfdeshom";
   inputs.src-nimlz4-master.repo  = "nimlz4";
+  inputs.src-nimlz4-master.dir   = "";
   inputs.src-nimlz4-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
